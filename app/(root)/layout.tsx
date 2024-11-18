@@ -8,7 +8,7 @@ import { Toaster } from "@/components/ui/toaster";
 
 export const dynamic = "force-dynamic";
 
-export default async function RootLayout({
+export default async function MainLayout({
   children,
 }: {
   children: ReactNode;
