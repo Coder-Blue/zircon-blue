@@ -110,7 +110,7 @@ export async function getCurrentUser() {
 
     return parseStringify(user.documents[0]);
   } catch (error) {
-    handleError(error, "Không thể lấy được người dùng hiện tại");
+    console.log(error);
   }
 }
 
