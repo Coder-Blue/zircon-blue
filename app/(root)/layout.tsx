@@ -6,7 +6,9 @@ import MobileNavigation from "@/components/root/mobile-nav";
 import Header from "@/components/root/header";
 import { Toaster } from "@/components/ui/toaster";
 
-export default async function LandingLayout({
+export const dynamic = "force-dynamic";
+
+export default async function RootLayout({
   children,
 }: {
   children: ReactNode;
