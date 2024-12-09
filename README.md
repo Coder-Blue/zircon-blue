@@ -51,7 +51,7 @@ cd zircon-blue
 - Install:
 
 ```bash
-npm i
+npm install --legacy-peer-dep
 ```
 
 - Create a file named `.env.local` in the root of your project and add the following content:
